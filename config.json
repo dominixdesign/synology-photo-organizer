@@ -1,0 +1,5 @@
+{
+  "importFolder": "/volume2/photo/__import/",
+  "invalidFolder": "/volume2/photo/__import-no-photos/",
+  "outputFolder": "/volume2/photo/"
+}
