@@ -1,5 +1,8 @@
 # synology-photo-organizer
-nodejs script to sort photos on synology disc station in date based dirctories.
+nodejs script to sort photos on synology disc station in date based directories.
+
+![directory structure](https://raw.githubusercontent.com/dominixdesign/synology-photo-organizer/master/doc/directories.png)
+
 
 ## prerequisites
   - ssh enabled | [Synology Knowledgebase](https://www.synology.com/knowledgebase/DSM/tutorial/General/How_to_login_to_DSM_with_root_permission_via_SSH_Telnet)
@@ -10,7 +13,7 @@ nodejs script to sort photos on synology disc station in date based dirctories.
 
   1. clone this repository
   2. edit config.json and set all folder configs __(all folder needs to exists!)__
-  
+
 | config name        | description           |
 | ------------- | ------------- |
 | import      | all photos should be added to this folder, the script watches this folder for jpg images |
@@ -23,6 +26,6 @@ nodejs script to sort photos on synology disc station in date based dirctories.
      3. General Tab, User: `root`, Event: `Boot-up`
      4. Task Settings Tab, Run command: `node path/to/cloned/repository/index.js`
      5. restart system or right click -> "run" on new created task
-     
+
  after that, every photo added to your `import` folder will be checked for a creation date (exif, file information, etc) and sorted after that date.
  e.g. `folder/2018/2018-05-12` for a photo from the 12th of may in 2018.
