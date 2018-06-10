@@ -1,0 +1,17 @@
+{
+  "name": "photo-organizer",
+  "version": "1.0.0",
+  "description": "copy added photos in folder depends on exif date",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dominik Sander",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^2.0.3",
+    "exiftool-kit": "^0.1.6",
+    "fast-exif": "^1.0.1",
+    "luxon": "^1.2.1"
+  }
+}
