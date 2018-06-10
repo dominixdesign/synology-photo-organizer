@@ -8,8 +8,6 @@ const ExifTool = require('exiftool-kit')
 const exiftool = new ExifTool()
 const config = require('./config.json')
 
-console.log(config)
-
 const log = (photo, message) => {
 	if(false) console.log(photo, '  #####  ' ,message)
 };
