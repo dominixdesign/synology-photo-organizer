@@ -11,7 +11,7 @@ const config = require('./config.json')
 console.log(config)
 
 const log = (photo, message) => {
-	if(true) console.log(photo, '  #####  ' ,message)
+	if(false) console.log(photo, '  #####  ' ,message)
 };
 
 var watcher = chokidar.watch(config.importFolder, {
