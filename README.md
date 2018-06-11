@@ -27,5 +27,8 @@ nodejs script to sort photos on synology disc station in date based directories.
      4. Task Settings Tab, Run command: `node path/to/cloned/repository/index.js`
      5. restart system or right click -> "run" on new created task
 
- after that, every photo added to your `import` folder will be checked for a creation date (exif, file information, etc) and sorted after that date.
- e.g. `folder/2018/2018-05-12` for a photo from the 12th of may in 2018.
+## usage
+
+Just add photos to your `import` folder. After a short delay the organizer will check those photos and sort them away.
+e.g. `folder/2018/2018-05-12` for a photo from the 12th of may in 2018.
+*Hint:* If you put a folder in your `import` folder, the name of this folder will be used as keyword on all photos within.
